@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Rubik+Iso&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    min-height: 100vh;
+    background: linear-gradient(to right, #333399, #ff00cc,#4169E1);
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.background-theme {
+    width: 450px;
+    height: 500px;
+    background-color: #EE82EE;
+    border-radius: 15px;
+    padding: 4rem;
+}
+.content-login {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin-top: -65px;
+}
+#content-one {
+    font-size: 60px;
+}
+#content-respostion {
+    font-size: 14px;
+    font-weight: 300;
+    padding: 10px;
+    margin-top: -16px;
+    margin-left: -70px;
+}
+label, 
+#content-forgotpassworld, 
+.card-login-footer {
+    font-size: 13px;
+    text-decoration: none;
+}
+.content-login, 
+#content-respostion, 
+.card-login-footer {
+    text-align: center;
+}
+.input {
+    height: 47px;
+    width: 90%;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    color: black;
+    padding: 0 0 0 45px;
+    background: rgba(255, 255, 255, .4);
+}
+.content-icon-login-one,
+.content-icon-login-two {
+    padding: 4px;
+}
+span.content-icon-one, 
+.content-icon-two {
+    position: relative;
+    top: 7px;
+    left: 45px;
+}
+.content-two {
+    margin-left: -20px;
+}
+.checkbox-andpassword {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 7px;
+    margin-left: -40px;
+}
+#content-forgotpassworld {
+    margin-top: 4px;
+}
+.checkbox input {
+    position: relative;
+    top: 2px;
+}
+button {
+    width: 90%;
+    height: 43px;
+    border-radius: 30px;
+    border: none;
+    position: relative;
+    left: 16px;
+    font-size: 20px;
+    outline: none;
+    background-color: #232836;
+    color: white;
+    font-weight: 600;
+}
+.card-login-footer {
+    padding: 15px;
+}
+#item-icon-login-facebook {
+    position: relative;
+    top: -6px;
+}#item-icon-login-google {
+    position: relative;
+    top: -6px;
+}
+.login-card-social-btn {
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between  ;
+    text-align: center;
+    margin: 0 -20px;
+    margin-left: 5px;
+}
+#content-login-card-social {
+    position: relative;
+    height: 1px;
+    width: 100%;
+    background-color: #232836;
+    top: 5px;
+}
+#content-login-card-social::before {
+    content: 'hoặc';
+    position: absolute;
+    top: 50%;
+    right: 45%;
+    color: #232836;
+    font-weight: normal;
+    background-color:#EE82EE	;
+    top: -14px;
+}
+.item-login-image-icon-ss1 a {
+    background-color: #f6c0eb;
+    padding-top: 16px;
+    padding-bottom: 8px;
+    padding-left: 27px;
+    padding-right: 32px;
+    position: relative;
+    top: 13px;
+    left: -3px;
+    border-radius: 10px;
+}
+.item-login-image-icon-ss2 a {
+    background-color: #f6c0eb;
+    padding-top: 16px;
+    padding-bottom: 8px;
+    padding-left: 33px;
+    padding-right: 40px;
+    position: relative;
+    top: 13px;
+    left: -3px;
+    border-radius: 10px;
+}
+/* @media (max-width: 760px) {
+    body {
+        padding: 1em;
+    }
+    .background-theme {
+        width: 400px;
+        padding: 3rem;
+    }
+} */
+@media (max-width: 768px) {
+    body {
+    font-size: 16px;
+}
+.background-theme {
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+}
+.content-login {
+    flex-direction: column;
+    margin-top: 0;
+}
+#content-one {
+    font-size: 40px;
+}
+#content-respostion {
+    margin-left: 0;
+}
+.input {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+button {
+    width: 100%;
+    margin-top: 1rem;
+    left: 0;
+}
+.card-login-footer {
+    padding: 1rem;
+}
+}\
